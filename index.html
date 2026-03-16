@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duplex Belles Challes · Les Arcs 1800</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">Les Arcs 1800</div>
+  <ul class="nav-links">
+    <li><a href="#infos">L'appartement</a></li>
+    <li><a href="#photos">Photos</a></li>
+    <li><a href="#details">Détails</a></li>
+    <li><a href="#localisation">Localisation</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a class="nav-cta" href="#contact">Nous contacter</a>
+</nav>
+
+<!-- ── HERO ── -->
+<div class="hero">
+  <div class="hero-slides" id="heroSlides"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Résidence Belles Challes · Arc 1800 · Savoie</p>
+    <h1 class="hero-title">Duplex <em>Belles Challes</em><br>Les Arcs 1800</h1>
+    <div class="hero-meta">
+      <span class="hero-pill">⛷ Ski aux pieds</span>
+      <span class="hero-pill">🏔 Vue panoramique</span>
+      <span class="hero-pill">🏠 Duplex 44 m²</span>
+      <span class="hero-pill">👨‍👩‍👧 Jusqu'à 6 pers.</span>
+    </div>
+    <!-- <div class="hero-stars">⭐ 4,71 · 7 avis Airbnb</div> -->
+  </div>
+  <div class="hero-dots" id="heroDots"></div>
+</div>
+
+<!-- ── INFO CARDS ── -->
+<section id="infos">
+  <div class="container">
+    <span class="s-label reveal">L'essentiel</span>
+    <h2 class="s-title reveal">Le duplex en un coup d'œil</h2>
+    <div class="cards-grid">
+
+      <div class="card reveal">
+        <div class="card-icon">🏠</div>
+        <div class="card-cat">Surface & configuration</div>
+        <div class="card-val">Duplex 44 m²</div>
+        <ul class="card-list">
+          <li>Dernier étage (11ème), exposition sud-ouest</li>
+          <li>Résidence des Belles Challes</li>
+          <li>Balcon sur le village du Charvet</li>
+          <li>Baigné de soleil toute la journée</li>
+        </ul>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">🛏</div>
+        <div class="card-cat">Couchages</div>
+        <div class="card-val">6 voyageurs · 5 lits</div>
+        <ul class="card-list">
+          <li>Chambre : 1 lit double (vue incroyable)</li>
+          <li>Palier étage : lit gigogne 2×90 cm</li>
+          <li>Mezzanine : 1 lit double sécurisé</li>
+          <li>Salon : 1 canapé-lit</li>
+        </ul>
+        <!-- <p class="card-note">⚠ Déconseillé aux enfants &lt; 10 ans (escaliers &amp; mezzanine)</p> -->
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">⛷</div>
+        <div class="card-cat">Domaine skiable</div>
+        <div class="card-val">Paradiski ★★★★</div>
+        <ul class="card-list">
+          <li>Départ et retour skis aux pieds</li>
+          <li>425 km de pistes · Paradiski</li>
+          <li>Relié à La Plagne</li>
+          <li>Local à skis dans la résidence</li>
+        </ul>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">🍳</div>
+        <div class="card-cat">Cuisine & équipements</div>
+        <div class="card-val">Tout équipé</div>
+        <ul class="card-list">
+          <li>Cuisine complète avec lave-vaisselle</li>
+          <li>Machine lavante-séchante</li>
+          <li>Machine à expresso</li>
+          <li>Coin repas intégré</li>
+        </ul>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">🚿</div>
+        <div class="card-cat">Salles de bain</div>
+        <div class="card-val">2 salles de bain</div>
+        <ul class="card-list">
+          <li>RdC : salle de bain + WC</li>
+          <li>Étage : douche + WC avec lavabo</li>
+          <li>Nombreux placards de rangement</li>
+          <li>Draps & serviettes en option</li>
+        </ul>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">📋</div>
+        <div class="card-cat">Règlement intérieur</div>
+        <div class="card-val">Infos pratiques</div>
+        <ul class="card-list">
+          <li>Arrivée à partir de 17h00</li>
+          <li>Départ avant 10h00</li>
+          <li>Animaux de compagnie acceptés</li>
+          <li>6 voyageurs maximum</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── GALLERY ── -->
+<section id="photos">
+  <div class="container">
+    <span class="s-label reveal">Galerie</span>
+    <h2 class="s-title reveal">Découvrez l'appartement</h2>
+    <div class="gallery-grid" id="gallery"></div>
+    <p class="gallery-hint reveal">Cliquez sur une photo pour l'agrandir · Flèches clavier pour naviguer</p>
+  </div>
+</section>
+
+<!-- ── DETAILS ── -->
+<section id="details">
+  <div class="container">
+    <span class="s-label reveal">Aménagement</span>
+    <h2 class="s-title reveal">Espaces &amp; équipements</h2>
+    <div class="details-grid">
+
+      <div class="reveal">
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--pine);margin-bottom:1.2rem;">Où vous dormirez</h3>
+        <div class="bedrooms">
+          <div class="bedroom-card">
+            <div class="bed-icon">🛏</div>
+            <div><div class="bed-name">Chambre · Étage</div><div class="bed-desc">1 lit double — vue panoramique sur les sommets</div></div>
+          </div>
+          <div class="bedroom-card">
+            <div class="bed-icon">🛏</div>
+            <div><div class="bed-name">Mezzanine</div><div class="bed-desc">1 lit double sécurisé (accès par escalier)</div></div>
+          </div>
+          <div class="bedroom-card">
+            <div class="bed-icon">🛏</div>
+            <div><div class="bed-name">Palier · Étage</div><div class="bed-desc">Lit gigogne : 2 lits simples de 90 cm côte à côte</div></div>
+          </div>
+          <div class="bedroom-card">
+            <div class="bed-icon">🛋</div>
+            <div><div class="bed-name">Salon · Rez-de-chaussée</div><div class="bed-desc">1 canapé-lit confortable</div></div>
+          </div>
+        </div>
+        <!-- <div class="warning-box">
+          ⚠️ <strong>Important :</strong> L'appartement ne convient pas aux enfants de moins de 10 ans en raison des escaliers et du lit en mezzanine qui peuvent être dangereux.
+        </div> -->
+      </div>
+
+      <div class="reveal">
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--pine);margin-bottom:1.2rem;">Ce que propose le logement</h3>
+        <div class="equip-grid">
+          <div class="equip-item">🏔 Vue montagne</div>
+          <div class="equip-item">⛷ Accessible à skis</div>
+          <div class="equip-item">☕ Machine expresso</div>
+          <div class="equip-item">🍽 Lave-vaisselle</div>
+          <div class="equip-item">👕 Lave-linge / séchant</div>
+          <div class="equip-item">🍳 Cuisine équipée</div>
+          <div class="equip-item">🐾 Animaux acceptés</div>
+          <div class="equip-item">🌅 Balcon sud-ouest</div>
+          <div class="equip-item">🎿 Local à skis</div>
+          <div class="equip-item">🔥 Chauffage inclus</div>
+          <div class="equip-item">🚿 2 salles de bain</div>
+          <div class="equip-item">🧺 Linge en option</div>
+        </div>
+        <div style="margin-top:2rem;">
+          <div class="s-label" style="margin-bottom:.8rem;">Avis des voyageurs Airbnb</div>
+          <div class="rating-row">
+            <!-- <div class="rating-item"><div class="rl">Global</div><div class="rv">⭐ 4,71</div></div> -->
+            <div class="rating-item"><div class="rl">Propreté</div><div class="rv">4,9</div></div>
+            <div class="rating-item"><div class="rl">Précision</div><div class="rv">4,9</div></div>
+            <div class="rating-item"><div class="rl">Arrivée</div><div class="rv">4,9</div></div>
+            <div class="rating-item"><div class="rl">Communication</div><div class="rv">4,9</div></div>
+            <div class="rating-item"><div class="rl">Emplacement</div><div class="rv">4,9</div></div>
+            <div class="rating-item"><div class="rl">Qualité-prix</div><div class="rv">4,9</div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── LOCALISATION ── -->
+<section id="localisation">
+  <div class="container">
+    <span class="s-label reveal">Où nous trouver</span>
+    <h2 class="s-title reveal">Localisation</h2>
+    <div class="loc-grid">
+
+      <div class="reveal">
+        <ul class="loc-list">
+          <li><span class="loc-ic">📍</span><div><span class="loc-lbl">Adresse</span>Résidence Belles Challes, Arc 1800, Bourg-Saint-Maurice — Entrée du village du Charvet, 11ème et dernier étage</div></li>
+          <li><span class="loc-ic">🚗</span><div><span class="loc-lbl">En voiture</span>Paris ~7h · Lyon ~2h30 · Genève ~2h · Grenoble ~2h30</div></li>
+          <li><span class="loc-ic">🚆</span><div><span class="loc-lbl">En train</span>Gare de Bourg-Saint-Maurice (TGV depuis Paris en ~4h) puis télécabine directe jusqu'à Arc 1600/1800</div></li>
+          <li><span class="loc-ic">✈️</span><div><span class="loc-lbl">En avion</span>Aéroport Genève (~2h) · Grenoble (~2h30) · Lyon Saint-Exupéry (~2h30)</div></li>
+          <li><span class="loc-ic">🏪</span><div><span class="loc-lbl">À proximité</span>Commerces, restaurants, école de ski ESF, pharmacie — tout accessible à pied</div></li>
+          <li><span class="loc-ic">⛷</span><div><span class="loc-lbl">Domaine</span>Paradiski 4★ — 425 km de pistes, relié à La Plagne · Altitude max 3 226 m</div></li>
+        </ul>
+      </div>
+
+      <div class="reveal">
+        <div class="map-box">
+          <div class="mi">🗺</div>
+          <div class="mn">Arc 1800 · Belles Challes</div>
+          <div class="ms">Village du Charvet · Savoie, France</div>
+          <a href="https://maps.google.com/?q=Residence+Belles+Challes+Arc+1800+Bourg-Saint-Maurice" target="_blank" rel="noopener">Voir sur Google Maps →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-layout">
+
+      <div class="reveal">
+        <span class="s-label">Renseignements</span>
+        <h2 class="s-title">Intéressé·e ?<br>Écrivez-nous</h2>
+        <p class="contact-intro">Pour toute question sur les disponibilités, les tarifs ou le logement, envoyez-nous un message. Nous répondons dans l'heure.</p>
+        <ul class="contact-info">
+          <li><span class="c-icon">👤</span> Stéphanie</li>
+          <li><span class="c-icon">📧</span> vaillant.s@free.fr</li>
+          <li><span class="c-icon">📱</span> +33 6 30 99 30 95</li>
+          <li><span class="c-icon">🌐</span> Parle français &amp; anglais</li>
+        </ul>
+        <a class="btn-mail"
+           href="mailto:vaillant.s@free.fr?subject=Les%20Arcs%20%E2%80%94%20Renseignements&body=Bonjour%20Stéphanie%2C%0A%0AJe%20suis%20intéressé·e%20par%20votre%20duplex%20aux%20Arcs%201800%20(Résidence%20Belles%20Challes).%0A%0APouvez-vous%20me%20donner%20des%20informations%20sur%20les%20disponibilités%20et%20les%20tarifs%20%3F%0A%0AMerci%20!">
+          ✉ Envoyer un message
+        </a>
+        <br>
+        <!-- <a class="airbnb-link" href="https://www.airbnb.fr/rooms/917287968507873604" target="_blank" rel="noopener">
+          🔗 Voir l'annonce complète sur Airbnb
+        </a> -->
+      </div>
+
+      <div class="contact-card reveal">
+        <div class="cc-badge"><div class="cc-dot"></div> Disponible à la location</div>
+        <div class="cc-name">Duplex Belles Challes</div>
+        <div class="cc-sub">Arc 1800 · 11ème étage · Exposition sud-ouest</div>
+        <ul class="cc-list">
+          <li>Jusqu'à 6 voyageurs · 5 lits · 2 SDB</li>
+          <li>Duplex 44 m² · Vue panoramique montagne</li>
+          <li>Ski aux pieds — départ &amp; retour pistes</li>
+          <li>Animaux de compagnie bienvenus</li>
+          <li>Draps &amp; serviettes disponibles sur demande</li>
+          <li>Arrivée dès 17h · Départ avant 10h</li>
+        </ul>
+        <!-- <div class="tags">
+          <span class="tag">Familles (10+)</span>
+          <span class="tag">Amis skieurs</span>
+          <span class="tag">Couples</span>
+          <span class="tag">Hiver &amp; Été</span>
+          <span class="tag">Animaux OK</span>
+        </div> -->
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>© 2025 · Duplex Belles Challes · Les Arcs 1800 · Tous droits réservés</footer>
+
+<!-- ── LIGHTBOX ── -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" onclick="lbClose()">×</button>
+  <img class="lb-img" id="lbImg" src="" alt="">
+  <div class="lb-caption" id="lbCap"></div>
+  <div class="lb-nav">
+    <button class="lb-btn" onclick="lbNav(-1)">‹</button>
+    <span class="lb-count" id="lbCount"></span>
+    <button class="lb-btn" onclick="lbNav(1)">›</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
