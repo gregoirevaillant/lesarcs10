@@ -1,10 +1,9 @@
 const photos = [
-  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-917287968507873604/original/fb57bcfb-d194-48e2-896d-a4c255391ada.jpeg', cap: 'Salon & espace repas' },
-  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-917287968507873604/original/e6a69639-9397-416b-9997-4f921da5b385.jpeg', cap: 'Vue depuis le logement' },
-  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-917287968507873604/original/79ce1292-b153-4cc0-b718-b7c90eb5515f.jpeg', cap: 'Intérieur duplex' },
-  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-917287968507873604/original/994cd676-196a-4d30-84f1-c635f4a190c5.jpeg', cap: 'Chambre & couchages' },
-  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-917287968507873604/original/4f7e43f2-5efa-485e-be9a-6d8ec1b910d5.jpeg', cap: 'Cuisine équipée' },
-  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-917287968507873604/original/9948fef6-9ca4-4180-8920-c44284617633.jpeg', cap: 'Chambre avec vue panoramique' },
+  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-1251897514992023275/original/7c2b3e44-3a73-419c-a8ce-3662f9ccd7c0.jpeg', cap: 'Salon & espace repas' },
+  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-1251897514992023275/original/7698d23a-3c38-4435-be34-8e1cfcfef7ba.jpeg', cap: 'Vue sur les pistes' },
+  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-1251897514992023275/original/7250eedf-70e4-4d50-85ca-22fde5c02e53.jpeg', cap: 'Intérieur appartement' },
+  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-1251897514992023275/original/013da958-ddca-4a6e-a9da-8177250a0884.jpeg', cap: 'Chambre & couchages' },
+  { src: 'https://a0.muscache.com/im/pictures/miso/Hosting-1251897514992023275/original/f04c3910-1c0f-492c-9403-28fbc165a738.jpeg', cap: 'Cuisine entièrement équipée' },
 ];
 
 // ── Hero slideshow ──
@@ -66,7 +65,7 @@ function lbNav(d) {
 }
 
 function lbUpdate() {
-  document.getElementById('lbImg').src        = photos[li].src;
+  document.getElementById('lbImg').src         = photos[li].src;
   document.getElementById('lbCap').textContent  = photos[li].cap;
   document.getElementById('lbCount').textContent = `${li + 1} / ${photos.length}`;
 }
